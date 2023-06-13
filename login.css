@@ -1,0 +1,33 @@
+.obrigatorio {
+  display: none;
+}
+
+.imagem
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: red;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.alert {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 10px;
+  border-radius: 4px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.erro {
+  background-color: red;
+}
